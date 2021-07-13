@@ -1,4 +1,4 @@
-# my_script
+# Bash Script
 A script that will print every 10s:
 <ul>
   <li>1.the system load</li>
