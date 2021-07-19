@@ -7,4 +7,4 @@ A script that will print every 10s:
   <li>free space of root partition</li>
 </ul>
 
-Format the output and redirected it to a file that will be rotated daily.
+Format the output and redirect it to a file that will be rotated daily.
