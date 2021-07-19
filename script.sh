@@ -24,8 +24,7 @@ if [ $# -eq 0 ]
 then
     echo "Invalid argument please pass -f <filename> or -s <filename>."
 fi
-#log rotation
-#/etc/logrotate.d/dpkg
+
 while getopts :f:s: flag
 do
     case "${flag}" in
@@ -33,7 +32,7 @@ do
             FILE="/home/$USER/${OPTARG}"
             periodic;;
         s) 
-            FILE="/home/$USER/${OPTARG}"
+            FILE="/home/${OPTARG}"
             single;;
         *) echo "Invalid argument, no filename.";;
     esac
