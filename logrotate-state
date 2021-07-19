@@ -1,0 +1,2 @@
+logrotate state -- version 2
+"/home/mylog.log" 2021-7-19-15:53:21
