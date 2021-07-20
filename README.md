@@ -37,7 +37,7 @@
 </p>
 
 <h2>Syntax:</h2>
-<p><b>Version 1:</b> ./script.sh -f <filename></br>
-<b>Version 2:</b> ./script.sh -s <file_path></p>
+<p><b>Version 1:</b> ./script.sh -f filename</br>
+<b>Version 2:</b> ./script.sh -s file_path</p>
 
 
