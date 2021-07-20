@@ -14,7 +14,6 @@ function periodic(){
     while [ true ]
     do
         single
-        cat $FILE
         sleep 10s
         clear
     done
@@ -32,7 +31,6 @@ do
             FILE="/home/$USER/${OPTARG}"
             periodic;;
         s) 
-            #FILE="/home/${OPTARG}"
             FILE=${OPTARG}
             single;;
         *) echo "Invalid argument, no filename.";;
