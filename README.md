@@ -31,13 +31,16 @@
 <p>
   To setup the rotation service:
     <ol>
-    <li>Run the rotation_script.sh through the repo folder. </li>
+    <li>Run the rotation_script.sh through the repo folder in your machine. </li>
     <li>That's it!</li>
   </ol>
 </p>
 
 <h2>Syntax:</h2>
-<p><b>Version 1:</b> ./script.sh -f filename</br>
-<b>Version 2:</b> ./script.sh -s file_path</p>
+<p>
+<b>Version 1:</b> ./script.sh -f filename</br>
+<b>Version 2:</b> ./script.sh -s file_path</br>
+<b>Rotation script:</b> ./rotation_script.sh
+</p>
 
 
