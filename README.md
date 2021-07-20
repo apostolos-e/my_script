@@ -17,6 +17,7 @@
 
 <p>You can use the second version of the script with the configuration file (cron_config) provided in the repo to schedule the logging process with the cron service. After doing that, you can also use the logrotate service (logrotate.conf,rotation_script.sh) to rotate the files daily.</p>
 
+<h2>Installation guide</h2>
 <p>
   To setup the cron service:
   <ol>
