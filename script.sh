@@ -32,7 +32,8 @@ do
             FILE="/home/$USER/${OPTARG}"
             periodic;;
         s) 
-            FILE="/home/${OPTARG}"
+            #FILE="/home/${OPTARG}"
+            FILE=/dev/stdout
             single;;
         *) echo "Invalid argument, no filename.";;
     esac
