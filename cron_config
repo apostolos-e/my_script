@@ -26,4 +26,4 @@
 # m h  dom mon dow   command
 
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-*/1 * * * * /home/apostolis/Desktop/my_script/script.sh -s mylog.log
+*/1 * * * * /home/apostolis/Desktop/my_script/script.sh -s /var/log/mylog.log
